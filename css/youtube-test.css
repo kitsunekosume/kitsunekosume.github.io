@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "TorusPro";
-    src: url("fonts/TorusPro-Regular.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: "TorusPro-SemiBold";
-    src: url("fonts/TorusPro-SemiBold.ttf") format("truetype");
-}
-
 :root {
     --main-color: black;
 
@@ -20,27 +10,12 @@
 }
 
 html {
-    font-family: TorusPro;
-    margin: 0;
+    font-family: "TorusPro-Regular";
     font-size: 75%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p {
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
-    font-family: TorusPro-SemiBold;
-}
-
-* {
-    box-sizing: border-box;
+    font-family: "TorusPro-Semibold";
 }
 
 .secondary-info {
@@ -61,12 +36,6 @@ h1 {
 .sort-by-button:hover {
     background-color: var(--lighter-main);
 }
-
-input {
-    background: none;
-    border: none;
-}
-
 
 body {
     color: white;
