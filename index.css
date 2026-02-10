@@ -111,7 +111,7 @@ body {
     height: 50%;
 }
 
-.secret {
+.secret, .secret2 {
     position: absolute;
     height: fit-content;
     width: fit-content;
@@ -123,6 +123,10 @@ body {
 
     text-decoration: none;
     color: rgba(255, 255, 255, 0.226);
+}
+
+.secret2 {
+    left: 100px;
 }
 
 /* Bottom ==============================================================*/
